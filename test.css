@@ -130,3 +130,7 @@
     background: linear-gradient(135deg, rgba(0,178,226,1) 31%, rgba(0,124,176,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b2e2",endColorstr="#007cb0",GradientType=1);
   }
+
+  .james {
+    color: blue;
+  }
