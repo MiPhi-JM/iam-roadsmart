@@ -1,0 +1,132 @@
+.panel-group {
+    margin-top: -29px;
+  }
+  
+  .panel h3 {
+    visibility: hidden ;
+  }
+  
+  .pwblueround {
+    border-radius: 100px;
+    border: 2px solid #00b2e2;
+    padding: 20px; 
+    width: 200px;
+    height: 200px;  
+  }
+  
+  .stratimg {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+  }
+  
+  
+  /*making stratimages smaller on mobile*/
+  @media only screen and (max-width: 991px) {
+    .stratimg {
+      height: auto;
+      width: 20vh;
+      margin-top: 0px;
+    }
+  }
+  
+  .pwgrey {
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+    margin: 10px 10px 20px 10px;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+  }
+  
+  .pwgrey:hover{
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    background-color: #F8F8F8;
+  }
+  
+  .pwstaffimg {
+    max-width: 222px;
+    display: block;
+    margin: auto;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+  }
+  .pwstaffimg:hover{
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    box-shadow: 5px 10px 15px #888888;
+  }
+  
+  .pwspace {
+    margin-left: 35px;
+  }
+  @media screen and (max-width: 991px) {
+    .pwspace {
+     margin-left: 0px;
+   }
+  }
+  
+  .ui-link-button {
+    margin-bottom: 10px; !important;
+  }
+  
+  .pwarchivebutton:after {
+      content: "\f105";
+      font-family: fa;
+      font-weight: 600;
+      padding-left: 10px;
+      font-size: 30px;
+      font-size: 1.875rem;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+  }
+  
+  .pwarchivebutton {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 12px 19px 9px 19px;
+    text-align: left;
+    display: inline-block;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    transition-duration: 0.4s;
+    margin: 12px 15px 15px 15px;
+  }
+  .pwarchivebutton:hover {
+    background-color: #ffffff;
+    color: #00b2e2;
+  }
+  
+  .pwbreadcrumb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .pwblue p{
+    color: #ffffff;
+  }
+  
+  .pwblue {
+    box-shadow: 0px 0px 15px grey;
+    margin-top: -55px;
+    background: rgb(0,178,226);
+    background: -moz-linear-gradient(135deg, rgba(0,178,226,1) 31%, rgba(0,124,176,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(0,178,226,1) 31%, rgba(0,124,176,1) 100%);
+    background: linear-gradient(135deg, rgba(0,178,226,1) 31%, rgba(0,124,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b2e2",endColorstr="#007cb0",GradientType=1);
+  }
