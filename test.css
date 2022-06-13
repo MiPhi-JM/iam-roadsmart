@@ -131,6 +131,6 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b2e2",endColorstr="#007cb0",GradientType=1);
   }
 
-  h1 {
+  h1 .james {
     color: red;
   }
